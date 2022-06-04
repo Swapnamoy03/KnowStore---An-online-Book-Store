@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KnowStore: Online Book Store</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<img src="images/pink final.png" alt="Store Logo" width="130px">
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Books_Page1.html">Books</a></li>
+						<li><a href="About.html">About</a></li>
+						<li><a href="ContactUs.html">Contact Us</a></li>
+						<li><a href="Account.html">Account</a></li>
+					</ul>
+				</nav>
+				<a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+				<a href="#"><img src="images/menu.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()"></a>
+			</div>
+			<div class="row">
+				<div class="col-2">
+					<h1>Explore The New And<br> Be The Better You!</h1>
+					<p>Books are a source of motivation and knowledge that can impact and shape youthful personalities.So read books and gain knowledge to become the better YOU!</p>
+					<a href="Books_Page1.html" class="btn">Explore Now &#8594;</a>
+				</div>
+				<div class="col-2">
+					<img src="images/book_12.png" alt="website describing image">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Featured Pics-->
+
+	<div class="categories">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-3">
+					<img src="images/book_11.jpg" alt="Featured Image">
+				</div>
+				<div class="col-3">
+					<img src="images/book_13.jpg" alt="Featured Image">
+				</div>
+				<div class="col-3">
+					<img src="images/book_14.jpg" alt="Featured Image">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--best sellers-->
+	
+	<div class="small-container">
+		<h2 class="title">Best Sellers:</h2>
+		<div class="row">
+			<div class="col-33">
+				<img src="images/secrets of Zynpagua_1.png" alt="Secrets Of Zynpagua">
+				<h4>Secrets Of Zynpagua</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<p>₹ 350.00</p>
+			</div>
+			<div class="col-33">
+				<img src="images/the alchemist_1.png" alt="The Alchemist">
+				<h4>The Alchemist</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<p>₹ 189.00</p>
+			</div>
+			<div class="col-33">
+				<img src="images/murakami_1.png" alt="Murakami: Kafka On The Shore">
+				<h4>Murakami: Kafka<br>On The Shore</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<p>₹ 441.00</p>
+			</div>
+		</div>
+
+		<!--Latest Arrivals-->
+
+
+		<h2 class="title">Latest Arrivals:</h2>
+		<div class="row">
+			<div class="col-33">
+				<img src="images/pi_1.png" alt="Life Of Pie: Booker Prize Winner 2002">
+				<h4>Life Of Pie: Booker<br>Prize Winner 2002</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<p>₹ 339.00</p>
+			</div>
+			<div class="col-33">
+				<img src="images/HP_half blood prince_1.png" alt="Harry Potter and the Half Blood Prince">
+				<h4>Harry Potter and<br>the Half Blood Prince</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<p>₹ 444.00</p>
+			</div>
+			<div class="col-33">
+				<img src="images/valkyries_1.png" alt="The Valkyries">
+				<h4>The Valkyries</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<p>₹ 228.00</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-33">
+				<img src="images/mist_1.png" alt="The Mist Paperback">
+				<h4>The Mist Paperback</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<p>₹ 759.00</p>
+			</div>
+			<div class="col-33">
+				<img src="images/possessing the secret of joy_1.png" alt="Possessing The Secret Of Joy">
+				<h4>Possessing The Secret<br>Of Joy</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<p>₹ 599.00</p>
+			</div>
+			<div class="col-33">
+				<img src="images/ikigai_1.png" alt="Ikigai: The Japanese Secret To A Long And Happy Life">
+				<h4>Ikigai: The Japanese Secret<br>To A Long And Happy Life</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<p>₹ 295.00</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Offer -->
+
+	<div class="offer">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-2">
+					<img src="images/the fifth mountain_1.png" alt="Exclusive Offer On: The Fifth Mountain" class="offer-img">
+				</div>
+				<div class="col-2">
+					<p>Exclusively Available On KnowStore</p>
+					<h1>The Fifth Mountain</h1>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half"></i>
+					</div>
+					<p>₹ 307.00</p><br>
+					<small>Written with the same masterful prose and clarity of vision that made The Alchemist an international phenomenon, The Fifth Mountain is Paulo Coelho's inspiring story of the Biblical prophet Elijah. In the ninth century B.C., the Phoenician princess Jezebel orders the execution of all the prophets who refuse to seek safety in the land of Zarephath, where the unexpectedly finds true love with a young widow. But this newfound rapture is to be cut short, and Elijah sees all of his hopes and dreams irrevocably erased as he is swept into a whirlwind of events that threatens his very existence. In what is truly a literary milestone, Coelho gives a quietly moving account of a man touched by the hand of God who must triumph over his frustrations in a soul-shattering trail of faith. </small><br>
+					<a href="" class="btn">Buy Now &#8594;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Authors-->
+
+	<div class="author">
+		<div class="small-container">
+			<h2 class="title">Popular Authors:</h2>
+			<div class="row">
+				<div class="col-3">
+					<img src="images/Hellen_Phillips.png" alt="Helen Phillips">
+					<h3>Helen Phillips</h3>
+				</div>
+				<div class="col-3">
+					<img src="images/Alice_Walker.png" alt="Alice Walker">
+					<h3>Alice Walker</h3>
+				</div>
+				<div class="col-3">
+					<img src="images/Jess_Kidd.png" alt="Life Of Pie: Booker Prize Winner 2002">
+					<h3>Jess Kidd</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3">
+					<img src="images/Paulo_Coelho.png" alt="Jonathan Franzen">
+					<h3>Paulo Coelho</h3>
+				</div>
+				<div class="col-3">
+					<img src="images/JK_Rowling.png" alt="JK Rowling">
+					<h3>JK Rowling</h3>
+				</div>
+				<div class="col-3">
+					<img src="images/George_Saunders.png" alt="George Saunders">
+					<h3>George Saunders</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+	<!-- Reviews -->
+
+	<div class="testimonial">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-3">
+					<i class="fa fa-quote-left"></i>
+					<p>Good service.Books are latest and of high quality.Delivery service is very fast and also very helpful customer services.</p>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+					<img src="images/user_1.png" alt="Reviewer: Sean Parker">
+					<h3>Sean Parker</h3>
+				</div>
+				<div class="col-3">
+					<i class="fa fa-quote-left"></i>
+					<p>Amazing service.Found huge variety of books on this online bookstore at reasonable prices.Delivery was quick as well.</p>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half"></i>
+					</div>
+					<img src="images/user_2.png" alt="Reviewer: Mike Smith">
+					<h3>Mike Smith</h3>
+				</div>
+				<div class="col-3">
+					<i class="fa fa-quote-left"></i>
+					<p>The best online bokstore!Such reasonable prices and very amazing quality of books!Amazing and trustworthy online bookstore!</p>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+					<img src="images/user_3.png" alt="Reviewer: Mabel Joe">
+					<h3>Mabel Joe</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Partners-->
+
+	<div class="partners">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-5">
+					<img src="images/amazon.png" alt="Amazon">
+				</div>
+				<div class="col-5">
+					<img src="images/flipkart.png" alt="Flipkart">
+				</div>
+				<div class="col-5">
+					<img src="images/crunchyroll.png" alt="Tinder">
+				</div>
+				<div class="col-5">
+					<img src="images/walmart.png" alt="Skype">
+				</div>
+				<div class="col-5">
+					<img src="images/oxford.png" alt="Samsung">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Footer-->
+
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App.</h3>
+					<p>Download App for Android and IOS mobile phone.</p>
+					<div class="app-logo">
+						<img src="images/play-store.png" alt="Play Store Logo">
+						<img src="images/app-store.png" alt="App Store Logo">
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="images/footer_logo.png" alt="Our Website Logo" width="130px">
+					<p>Our Purpose Is To Successfully Make Knowledge Reach Out To People All Around The World.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+						<li>Join Affiliate</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow Us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Instagram</li>
+						<li>YouTube</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2021-KnowStore Applications</p>
+		</div>
+	</div>
+</div>
+
+	<!--js for toggle menu-->
+
+	<script type="text/javascript">
+		var MenuItems = document.getElementById("MenuItems");
+
+		MenuItems.style.maxHeight="0px";
+
+		function menutoggle()
+		{
+			if (MenuItems.style.maxHeight=="0px")
+			{
+				MenuItems.style.maxHeight="200px";
+			}
+			else
+			{
+				MenuItems.style.maxHeight="0px";
+			}
+		}
+	</script> 
+</body>
+</html>
